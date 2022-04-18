@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC9A3C1C280DE39700B76EC0 /* GameControlViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A3C1B280DE39700B76EC0 /* GameControlViewClass.swift */; };
 		ACAB6DC42809F4D8007ED552 /* GameControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAB6DC32809F4D8007ED552 /* GameControlView.xib */; };
 		ACC0F53228085D80007B3197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0F53128085D80007B3197 /* AppDelegate.swift */; };
 		ACC0F53428085D80007B3197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0F53328085D80007B3197 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC9A3C1B280DE39700B76EC0 /* GameControlViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlViewClass.swift; sourceTree = "<group>"; };
 		ACAB6DC32809F4D8007ED552 /* GameControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameControlView.xib; sourceTree = "<group>"; };
 		ACC0F52E28085D80007B3197 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC0F53128085D80007B3197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				ACC0F53F28085D82007B3197 /* Info.plist */,
 				ACFED1772809E29F00232BA3 /* gameFieldView.swift */,
 				ACAB6DC32809F4D8007ED552 /* GameControlView.xib */,
+				AC9A3C1B280DE39700B76EC0 /* GameControlViewClass.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				ACC0F53228085D80007B3197 /* AppDelegate.swift in Sources */,
 				ACC0F53428085D80007B3197 /* SceneDelegate.swift in Sources */,
 				ACFED1782809E29F00232BA3 /* gameFieldView.swift in Sources */,
+				AC9A3C1C280DE39700B76EC0 /* GameControlViewClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
