@@ -22,8 +22,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qht-GB-jI7" customClass="GameFieldView" customModule="Game">
-                                <rect key="frame" x="16" y="130" width="382" height="703"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qht-GB-jI7" customClass="GameFieldView" customModule="Game">
+                                <rect key="frame" x="16" y="126" width="382" height="707"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="shareSize">
@@ -31,8 +31,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="elt-ld-p9I" customClass="GameControlViewClass" customModule="Game" customModuleProvider="target">
-                                <rect key="frame" x="16" y="44" width="382" height="78"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elt-ld-p9I" customClass="GameControlViewClass" customModule="Game" customModuleProvider="target">
+                                <rect key="frame" x="16" y="44" width="382" height="74"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
@@ -66,6 +66,11 @@
             <point key="canvasLocation" x="18.840579710144929" y="75"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="elt-ld-p9I">
+            <size key="intrinsicContentSize" width="190.5" height="74"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
